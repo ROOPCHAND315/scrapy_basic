@@ -1,0 +1,85 @@
+2023-01-31 14:06:50,906 Using selector: EpollSelector selector_events.py
+2023-01-31 14:06:51,040 Unhandled error in Deferred: _legacy.py
+2023-01-31 14:06:51,041 Unhandled error in Deferred: _legacy.py
+2023-01-31 14:06:51,042  _legacy.py
+Traceback (most recent call last):
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/utils/misc.py", line 65, in load_object
+    obj = getattr(mod, name)
+AttributeError: partially initialized module 'mauritaniaFeeds.pipelines' has no attribute 'MauritaniafeedsPipeline' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/twisted/internet/defer.py", line 1697, in _inlineCallbacks
+    result = context.run(gen.send, result)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/crawler.py", line 116, in crawl
+    self.engine = self._create_engine()
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/crawler.py", line 130, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/core/engine.py", line 84, in __init__
+    self.scraper = Scraper(crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/core/scraper.py", line 82, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/middleware.py", line 60, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/middleware.py", line 41, in from_settings
+    mwcls = load_object(clspath)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/utils/misc.py", line 67, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'mauritaniaFeeds.pipelines' doesn't define any object named 'MauritaniafeedsPipeline'
+2023-01-31 14:06:51,043  _legacy.py
+Traceback (most recent call last):
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/utils/misc.py", line 65, in load_object
+    obj = getattr(mod, name)
+AttributeError: partially initialized module 'mauritaniaFeeds.pipelines' has no attribute 'MauritaniafeedsPipeline' (most likely due to a circular import)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/twisted/internet/defer.py", line 1697, in _inlineCallbacks
+    result = context.run(gen.send, result)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/crawler.py", line 116, in crawl
+    self.engine = self._create_engine()
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/crawler.py", line 130, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/core/engine.py", line 84, in __init__
+    self.scraper = Scraper(crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/core/scraper.py", line 82, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/middleware.py", line 60, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/middleware.py", line 41, in from_settings
+    mwcls = load_object(clspath)
+  File "/home/roopchand/projects/scrapyTest/testenv/lib/python3.8/site-packages/scrapy/utils/misc.py", line 67, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'mauritaniaFeeds.pipelines' doesn't define any object named 'MauritaniafeedsPipeline'
+2023-01-31 14:06:54,182 in full description process_crawler.py
+2023-01-31 14:06:54,182 https://alikhbari.net/archives/28806First process_crawler.py
+2023-01-31 14:06:54,208 in full description process_crawler.py
+2023-01-31 14:06:54,208 https://alikhbari.net/archives/28803First process_crawler.py
+2023-01-31 14:06:54,230 in full description process_crawler.py
+2023-01-31 14:06:54,230 https://alikhbari.net/archives/28800First process_crawler.py
+2023-01-31 14:06:54,252 in full description process_crawler.py
+2023-01-31 14:06:54,253 https://alikhbari.net/archives/28797First process_crawler.py
+2023-01-31 14:06:54,272 in full description process_crawler.py
+2023-01-31 14:06:54,273 https://alikhbari.net/archives/28794First process_crawler.py
+2023-01-31 14:06:54,292 in full description process_crawler.py
+2023-01-31 14:06:54,293 https://alikhbari.net/archives/28792First process_crawler.py
+2023-01-31 14:06:54,311 in full description process_crawler.py
+2023-01-31 14:06:54,312 https://alikhbari.net/archives/28789First process_crawler.py
+2023-01-31 14:06:54,333 in full description process_crawler.py
+2023-01-31 14:06:54,333 https://alikhbari.net/archives/28783First process_crawler.py
+2023-01-31 14:06:54,353 in full description process_crawler.py
+2023-01-31 14:06:54,354 https://alikhbari.net/archives/28780First process_crawler.py
+2023-01-31 14:06:54,372 in full description process_crawler.py
+2023-01-31 14:06:54,373 https://alikhbari.net/archives/28778First process_crawler.py
+2023-01-31 14:07:12,962 inside full description aajtak_fd.py
+2023-01-31 14:07:13,530 inside full description aajtak_fd.py
+2023-01-31 14:07:14,351 inside full description aajtak_fd.py
+2023-01-31 14:07:14,986 inside full description aajtak_fd.py
+2023-01-31 14:07:14,995 inside full description aajtak_fd.py
+2023-01-31 14:07:15,558 inside full description aajtak_fd.py
+2023-01-31 14:07:15,580 inside full description aajtak_fd.py
+2023-01-31 14:07:15,778 inside full description aajtak_fd.py
+2023-01-31 14:07:16,247 inside full description aajtak_fd.py
+2023-01-31 14:07:16,336 inside full description aajtak_fd.py
